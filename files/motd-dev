@@ -1,0 +1,21 @@
+- Comandi aggiuntivi disponibili:
+
+workon			    aggiunge l'utente al gruppo 'webNN' desiderato
+defaultperms		setta i permessi per la scrittura da parte del webserver
+cluster-monitor     monitorizza (dal balancer) la situazione del cluster
+clustertail		    apre lo stesso file da tutti i nodi
+
+- Comandi specifici per Tomcat:
+
+deploy			    effettua il deploy di una webapp (vedi help)
+interactive-deploy	idem. (interattivo)
+revert			    ripristina una precedente versione di una webapp
+dispatch-webapp		forza il deploy di una webapp su tutti i nodi
+stop-webapp		    arresta una webapp su tutti i nodi
+start-webapp		avvia una webapp su tutti i nodi
+reload-webapp		forza il ricaricamento di una webapp su tutti i nodi
+check-webapp		controlla una webapp su tutti i nodi
+tomcat-restart		riavvia il servizio Tomcat
+clusterdev-tomcat-restart
+			riavvia il Tomcat su tutti i nodi (lento)
+

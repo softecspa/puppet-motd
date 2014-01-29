@@ -1,0 +1,11 @@
+= MOTD
+
+Per aggiungere qualcosa al motd mettere un file in
+  /usr/local/etc/motd.d/
+
+== TODO
+
+Fare una define motd::add{ source => ... }
+che eviti di cablare il path /usr/local/etc/motd.d/
+nel codice di altri moduli, prendendo il file
+da aggiungere come parametro della define

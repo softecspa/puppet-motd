@@ -1,4 +1,4 @@
 puppet-motd
 ===========
 
-Manage motd with puppet
+Puppet module for motd

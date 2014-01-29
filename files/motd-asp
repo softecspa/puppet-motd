@@ -1,0 +1,6 @@
+
+- Comandi aggiuntivi disponibili:
+
+workon			    aggiunge l'utente al gruppo 'webNN' desiderato
+defaultperms		setta i permessi per la scrittura da parte del webserver
+
